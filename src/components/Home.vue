@@ -176,10 +176,6 @@
       border-width: 0px;
      
   }
-  .logo-min {
-         width: 230px;
-        height: 153px;
-  } 
   .slide-fade-enter-active {
   transition: all .3s ease;
   }

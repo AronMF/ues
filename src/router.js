@@ -3,12 +3,16 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 //Paginas
-import SocialPage from "./pages/SocialPage.vue";
+import ClientPage from "./pages/ClientPage.vue";
+import ServicePage from "./pages/ServicePage.vue";
+import AboutPage from "./pages/AboutPage.vue";
 import HomePage from "./pages/HomePage.vue";
 
 const routes = [
     { path: "/", component: HomePage },
-    { path: "/social", component: SocialPage },
+    { path: "/client", component: ClientPage },
+    { path: "/about", component: AboutPage },
+    { path: "/service", component: ServicePage },
 ];
 
 const router = new VueRouter({
